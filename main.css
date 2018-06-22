@@ -1,0 +1,43 @@
+body {
+    background-color: #F9E54E;
+}
+
+section {
+    margin: auto;
+    max-width: 960px;
+    /*    width must be max so when in mobile it will adjust */
+    background-color: aliceblue;
+    padding: 10px;
+    height: 100%;
+}
+
+.backgroundImage {
+    background-image: url("watermellon-pops.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    height: 250px;
+}
+
+h1 {
+    color: #E12E4B;
+}
+
+h2 {
+    color: #f8981d;
+}
+
+img {
+    max-width: 300px;
+    width: 100%;
+}
+
+@media only screen and (min-width: 769px) {
+    .recipe {
+        width: 50%;
+        display: inline-block;
+    }
+    h1 {
+        color: blue;
+    }
+}
